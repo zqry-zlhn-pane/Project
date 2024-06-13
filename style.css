@@ -1,0 +1,68 @@
+.container {
+    width: 1080px;
+    margin: auto;
+}
+
+.nav-bar {
+    width: 1080px;
+    background-color: blue;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 10px;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+    display: inline;    
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 25px;
+}
+
+.nav-bar ul li a:hover {
+    color: aqua;
+}
+
+.footer {
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.footer .teksFooter {
+    color: white;
+    text-align: center;
+}
+
+.main .content {
+    box-shadow: 0px 0px 5px grey;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.main .data td {
+    border: 1px solid black;
+    width: 250px;
+}
+
+.main .data {
+    margin-top: 10px;
+}
+
+.main .data th {
+    border: 1px solid black;
+}
+
+.main .data .col1 {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
